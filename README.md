@@ -12,5 +12,5 @@ Unlike standard linear automations, this pipeline is engineered for reliability:
 ![Pipeline Architecture](./Screenshot%202026-10-07%20015929.png)
 
 ### Files Included
-* `lead-enrichment-blueprint.json` (Import directly into Make.com)
+* `Resilient Lead Generation Engine.blueprint.json` (Import directly into Make.com)
 * Canvas Architecture Screenshot

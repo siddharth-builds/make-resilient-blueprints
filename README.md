@@ -8,7 +8,9 @@ Unlike standard linear automations, this pipeline is engineered for reliability:
 * **Immediate 200 OK Handshake:** Prevents API timeouts by immediately resolving the HTTP request before processing heavy AI tasks.
 * **Strict JSON Parsing:** Forces the LLM (GPT/Gemini) to output machine-readable JSON, stripping out conversational AI fluff to prevent database mapping errors.
 * **Automated Retry Error Handling:** If the destination database (Google Sheets/Airtable) experiences downtime, the sequence breaks to a retry queue (3 attempts, 15-minute intervals) to ensure zero lead data is lost.
+  
 ![Pipeline Architecture](./Screenshot%202026-10-07%20015929.png)
+
 ### Files Included
 * `lead-enrichment-blueprint.json` (Import directly into Make.com)
 * Canvas Architecture Screenshot
